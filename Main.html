@@ -1,0 +1,160 @@
+<head>
+	<style>
+		.left {
+    display: block;
+    float: left;
+}
+.center {
+    display: block;
+    margin: auto;
+}
+.right {
+    display: block;
+    float: right;
+}
+		body{
+		margin: 0;
+		}
+
+		h1{
+		text-align: center;      
+    font-size: 80px;
+}
+
+
+		h2{
+		text-align: center;
+		animation: left_to_right 1s ease;
+    font-size: 3vw;
+}
+
+		@keyframes right_to_left
+		{from
+			{
+				margin-left: 100%;
+			}to{margin-left: 0%;}
+		}
+		@keyframes left_to_right
+		{from
+			{
+				margin-left: -100%;
+			}to{margin-left: 0%;}
+		}
+		@keyframes expand
+		{from
+			{
+				margin-left: 100%;
+				margin-right: 100%;
+			}to{margin-left: 25%;
+			margin-right: 25%;}
+		}
+h3{
+	animation: expand 1s ease;
+margin-left: 25%;
+			margin-right: 25%;
+}
+h4{
+
+    font-size:40px;
+}
+h5{
+    font-size: 30px;
+}
+box{                 
+	padding: 20px;
+  background-color: #eb5e46;
+  border-radius: 15px 15px 15px 15px;
+animation:unbounce .2s ease;
+style=color:#eb5e46; }
+bigBox{
+  height: 3vw;
+  margin: 1vw;
+  width: 6vw;
+	padding: 20px;
+  background-color: #eb5e46;
+  border-radius: 15px 15px 15px 15px;
+style=color:#184A45FF; }
+@keyframes expandText{
+from{
+font-size:0;}to{
+font-size:50px * 1vw;}
+}
+expandingText{
+font-family:Impact;font-size:50px * 1vw; color:#B0B8B4FF;
+}
+span{border: 2px solid blue; padding: 200px;}
+box:hover{animation:bounce .1s ease; background-color: #B0B8B4FF;  	padding: 30px;}
+@keyframes bounce{from{
+ background-color: #eb5e46; 	padding: 20px;}to{
+  background-color: #B0B8B4FF;	padding: 30px;}}
+@keyframes unbounce{
+from{
+ background-color: #B0B8B4FF;	padding: 30px;}
+to{
+background-color: #eb5e46; 	padding: 20px;}}
+
+@keyframes titleExpand{from{font-size:5vw}to{font-size:8vw}}
+@keyframes titleUnExpand{from{font-size:8vw}to{font-size:5vw}}
+
+	</style>
+	<body style="background-color:black; padding: 20px; border: 40px solid #184A45FF; border-radius: -15px -15px -15px -15px">
+	
+		<h1>
+				
+			<p style="color:#B0B8B4FF; font-family:Impact;text-shadow: 2px 2px 0 #000, 0px 0px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+			GameObject
+				
+			</p>
+				
+		</h1>
+
+			<h3>
+				<hr style="height: .1%; background-color: #E1C699;">
+			</h3>
+		<h2>
+			<p style="color:white; font-family:Impact;text-shadow: 2px 2px 0 #000, 0px 0px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+				
+								GameDev living in france and trying to make games for people
+			</p>
+		</h2>
+<center>
+	<expandingText>
+	<p style="font-size: 3vw">
+	My game:
+	</p>
+	</expandingText>
+</center>
+
+			<center>
+					<h4>
+						<p style="font-family:Impact">	
+							<a href="Spheranictus.html"><box>
+								<font color="white">
+
+									Spheranictus
+					
+								</font>
+					
+						
+					
+							</box></a>
+				
+						</p>
+					</h4>
+			</center>
+			
+				
+	<expandingText>
+	<p>
+	
+	</body>
+							<p style="position: absolute; bottom: 60px; right:60px; font-family: Impact">
+							<a href="Contact.html">
+								<font color="white">
+								<box>
+								Contact me
+								</box>
+								</font>
+								</p>
+								</a>
+</head>
